@@ -98,5 +98,5 @@ module.exports = {
       'typescript': {},
     },
   },
-  ignorePatterns: ['/dist/**', '/src/resources/legacy-wrapper/**'],
+  ignorePatterns: ['/dist/**'],
 };
