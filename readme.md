@@ -11,6 +11,11 @@ For example: import rules were added that expect the order of imports to be the 
 Merging imports gets just that slight bit easier when they are sorted in the same manner.
 The same logic applies to trailing comma's, requiring `;`, etc.
 
+To install all required packages as dev dependencies, use the following script.
+```bash
+npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks
+```
+
 Recommendation: add the following in `.vscode/settings.json` so eslint auto-fixes a lot of small issues for you on every save.
 ```json
 "editor.codeActionsOnSave": {
